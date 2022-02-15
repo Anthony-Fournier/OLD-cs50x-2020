@@ -1,0 +1,12 @@
+INPUT prompt for height
+    get_int
+malicious user check (input is 1 -8)
+    if INPUT > 0 and <= 8 then else re-INPUT
+"draw" blocks one level at a time repeating until INPUT is reached, adding 1 block to the length of each level
+    draw
+    newline
+    check to do again
+    
+    
+    
+----------------

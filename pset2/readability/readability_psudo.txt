@@ -1,0 +1,15 @@
+get string of text`
+put in array ( i think this is just what it is. a string is an array of char`
+count letters`
+count words'
+count sentences`
+use formula`
+
+
+output reading level as suggested grade [Before Grade 1 --through-- Grade 16+] (18 levels total)
+
+count letters - find and count ascii values for uppercase and lowercase letters in array
+
+count words - look for '\0' at the end, or punctuation, or '\0' at the begining and punctuation at the end
+
+count sentences - look for punctuation
